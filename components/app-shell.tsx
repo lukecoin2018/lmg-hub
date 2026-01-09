@@ -68,16 +68,14 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         
         {/* Logo Section */}
         <div className="p-6 border-b border-[#3A3A3A]">
-          <Link href="/dashboard" className="flex flex-col gap-2">
+          <Link href="/dashboard" className="flex justify-center">
             <Image 
-              src="/lmg-logo.svg" 
-              alt="LMG Media" 
-              width={150} 
-              height={80}
-              className="w-32"
-              style={{ objectFit: 'contain' }}
+              src="/creator-hub-logo.png" 
+              alt="LMG Creator Hub" 
+              width={120} 
+              height={120}
+              className="w-24 h-24"
             />
-            <div className="text-xs text-gray-400">Creator Hub</div>
           </Link>
         </div>
 

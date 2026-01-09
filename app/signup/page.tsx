@@ -60,17 +60,15 @@ export default function SignUpPage() {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="flex justify-center mb-2">
+          <div className="flex justify-center">
             <Image 
-              src="/lmg-logo.svg" 
-              alt="LMG Media" 
-              width={200} 
-              height={100}
-              className="w-40"
-              style={{ objectFit: 'contain' }}
+              src="/creator-hub-logo.png" 
+              alt="LMG Creator Hub" 
+              width={150} 
+              height={150}
+              className="w-32 h-32"
             />
           </div>
-          <p className="text-gray-400 text-sm">Creator Hub</p>
         </div>
 
         {/* Signup Card */}
